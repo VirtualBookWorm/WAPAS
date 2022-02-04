@@ -1,8 +1,1 @@
-Actual dataset: https://www.kaggle.com/kyanyoga/sample-sales-data/
-
-
-
-Walmart DataSet : https://www.kaggle.com/yasserh/walmart-dataset
-Fortune : https://www.kaggle.com/shivamb/fortune-global-2000-companies-till-2021
-All in One : https://www.kaggle.com/search?q=sales+data+datasetFileTypes%3Acsv+date%3A90+datasetSize%3Asmall
-https://www.kaggle.com/aungpyaeap/supermarket-sales
+Actual dataset: https://www.kaggle.com/ishaanv/ISLR-Auto?select=Advertising.csv
