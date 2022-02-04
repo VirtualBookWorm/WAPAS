@@ -1,2 +1,0 @@
-daqtaset link : https://www.kaggle.com/sudalairajkumar/covid19-in-india
-dataset link : https://www.kaggle.com/aungpyaeap/supermarket-sales
