@@ -4,11 +4,11 @@
 ![Cover Image](/assets/images/imgCover.png)
 
 #### Technologies used:
-1. Python _3.8.5_
-2. Scikit-Learn
-3. NumPy
-4. Pandas
-5. Streamlit
+- Python _3.8.5_
+- Scikit-Learn
+- NumPy
+- Pandas
+- Streamlit
 
 #### ML model used:
 Supervised--> Linear Regression
