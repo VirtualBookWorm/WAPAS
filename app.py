@@ -19,7 +19,7 @@ ID = st.text_input("Enter your Unique ID: ", type='password')
 if st.button("Authenticate"):
 	if ID==UID:
 		st.success("Successfully authenticated!")
-		data = load_data("database.csv")
+		data = load_data("assets/database.csv")
 		st.subheader("Exploratory Data")
 		st.dataframe(data)
 		with st.expander("See plotting..."):
