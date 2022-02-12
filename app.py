@@ -40,7 +40,7 @@ if st.button("Authenticate"):
 			st.image('assets/images/plots.png')
 			st.write("Therefore, **TV** adverts have the *highest/most correlative* weight...")
 		st.subheader("Predict sales")
-		st.markdown('<a href="https://share.streamlit.io/virtualbookworm/wapas/main/predict.py">Proceed to predict sales</a>, unsafe_allow_html=True)
+		st.markdown('<a href="https://share.streamlit.io/virtualbookworm/wapas/main/predict.py">Proceed to predict sales</a>', unsafe_allow_html=True)
 	else:
 		st.error("Enter a valid Unique ID")
 
