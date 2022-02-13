@@ -17,7 +17,7 @@ def load_model(model_file):
 
 h = st.sidebar.selectbox("FAQ/Help", ['How to Login/Authenticate?', 'What is WAPAS?', 'Key features', 'Security policy', 'Reusability'])
 if h=='How to Login/Authenticate?':
-	st.sidebar.write("User authentication is required to see the Database & Analytical reports. However, 'Sales prediction' can be accessed without security/password verification.<br>Use 'sample_1234' as your unique ID for public use. :+1:")
+	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
 
 st.title("WAPAS")
 st.header("Web Application to Predict & Analyse Sales")
