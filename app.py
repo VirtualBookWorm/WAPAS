@@ -61,7 +61,7 @@ if choice=='Advertisement on TV':
 		prediction = model.predict(sample)
 		st.info("Generated report")
 		st.write("Predicted sales: $ {:.2f}".format(prediction[0])," billion")
-		st.write("**Confidence:** Approx 80% accuracy is expected.")
+		st.write("**Confidence:** Approx 80% accuracy is expected. :victory:")
 if choice=='Advertisement on Radio':
 	Radio = st.slider("Advertisement expenditure on Radio", 0, 100, 1)
 	if st.button("Predict"):
