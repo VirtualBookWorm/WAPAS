@@ -84,4 +84,4 @@ st.text("")
 st.text("")
 
 st.markdown('<p style="color:Aqua">&copy 2022 &nbsp; WAPAS &nbsp;| &nbsp;&nbsp; Designed &amp; developed by <a href="https://www.linkedin.com/in/aritra-ban3rjee/">Aritra Banerjee</a></p>', unsafe_allow_html=True)
-st.markdown('<p style="color:Aqua">Designed &amp; developed by <a href="https://www.linkedin.com/in/aritra-ban3rjee/">Aritra Banerjee</a></p>', unsafe_allow_html=True)
+st.markdown('<p style="color:Aqua"><b>co-developers:</b> <a>Rounak Das</a> <a>Sarat Sen</a> <a>Ranadip Ghosh</a> <a>Indranuj Ganguly</a></p>', unsafe_allow_html=True)
