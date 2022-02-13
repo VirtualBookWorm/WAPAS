@@ -15,7 +15,7 @@ def load_model(model_file):
 	loaded_model = joblib.load(open(os.path.join(model_file),"rb"))
 	return loaded_model			
 
-h = st.sidebar.selectbox("FAQ/Help", ['How to Login/Authenticate?', 'What is WAPAS?', 'Key features' 'Security policy', 'Reusability'])
+h = st.sidebar.selectbox("FAQ/Help", ['How to Login/Authenticate?', 'What is WAPAS?', 'Key features', 'Security policy', 'Reusability'])
 
 st.title("WAPAS")
 st.header("Web Application to Predict & Analyse Sales")
