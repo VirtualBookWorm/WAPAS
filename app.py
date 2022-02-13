@@ -18,6 +18,14 @@ def load_model(model_file):
 h = st.sidebar.selectbox("FAQ/Help", ['How to Login/Authenticate?', 'What is WAPAS?', 'Key features', 'Security policy', 'Reusability'])
 if h=='How to Login/Authenticate?':
 	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
+if h=='What is WAPAS?':
+	st.sidebar.write("An open source project to develop web based application for predicting & analysing sales. It uses open source datasets to build Machine Learning models & deploys a graphical representation in the website format. :sunglasses:")
+if h=='Key features':
+	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
+if h=='Security policy':
+	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
+if h=='Reusability':
+	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
 
 st.title("WAPAS")
 st.header("Web Application to Predict & Analyse Sales")
