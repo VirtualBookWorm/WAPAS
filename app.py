@@ -83,5 +83,5 @@ st.text("")
 st.text("")
 st.text("")
 
-st.markdown('<p style="color:Aqua">&copy 2022 &nbsp; WAPAS | &nbsp;&nbsp; Designed &amp; developed by <a href="https://www.linkedin.com/in/aritra-ban3rjee/">Aritra Banerjee</a></p>', unsafe_allow_html=True)
+st.markdown('<p style="color:Aqua">&copy 2022 &nbsp; WAPAS &nbsp;| &nbsp;&nbsp; Designed &amp; developed by <a href="https://www.linkedin.com/in/aritra-ban3rjee/">Aritra Banerjee</a></p>', unsafe_allow_html=True)
 st.markdown('<p style="color:Aqua">Designed &amp; developed by <a href="https://www.linkedin.com/in/aritra-ban3rjee/">Aritra Banerjee</a></p>', unsafe_allow_html=True)
