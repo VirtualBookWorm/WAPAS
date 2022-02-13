@@ -23,7 +23,7 @@ if h=='What is WAPAS?':
 if h=='Key features':
 	st.sidebar.write("User friendly interface, Cross platform access, Dependable accuracy, Open source development :sunglasses:")
 if h=='Security policy':
-	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
+	st.sidebar.write("User authentication is required to see the Database & Analytical reports. However, 'Sales prediction' can be accessed without password verification. :white_check_mark:")
 if h=='Reusability':
 	st.sidebar.write("Refer to [LICENSE here](https://github.com/VirtualBookWorm/WAPAS/blob/main/LICENSE) :raised_hand:")
 if h=='Resources':
