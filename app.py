@@ -22,7 +22,7 @@ st.text("")
 st.text("")
 st.text("")
 
-st.write("<p style='color:IndianRed'><b>Note: User authentication is required to see the Database & Analytical reports!!</b> However, 'Sales prediction' can be accessed without password verification</p>", unsafe_allow_html=True)
+st.write("<p style='color:Chocolate'><b>Note: User authentication is required to see the Database & Analytical reports!!</b> However, 'Sales prediction' can be accessed without password verification</p>", unsafe_allow_html=True)
 UID = 'sample_1234'
 ID = st.text_input("Enter your Unique ID: ", type='password')
 if st.button("Authenticate"):
