@@ -27,7 +27,7 @@ if h=='Security policy':
 if h=='Reusability':
 	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
 if h=='Resources':
-	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
+	st.sidebar.write("https://www.kaggle.com/ishaanv/ISLR-Auto?select=Advertising.csv :heart:")
 
 st.title("WAPAS")
 st.header("Web Application to Predict & Analyse Sales")
