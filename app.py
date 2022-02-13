@@ -15,16 +15,18 @@ def load_model(model_file):
 	loaded_model = joblib.load(open(os.path.join(model_file),"rb"))
 	return loaded_model			
 
-h = st.sidebar.selectbox("FAQ/Help", ['How to Login/Authenticate?', 'What is WAPAS?', 'Key features', 'Security policy', 'Reusability'])
+h = st.sidebar.selectbox("FAQ/Help", ['How to Login/Authenticate?', 'What is WAPAS?', 'Key features', 'Resources', 'Security policy', 'Reusability'])
 if h=='How to Login/Authenticate?':
 	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
 if h=='What is WAPAS?':
-	st.sidebar.write("An open source project to develop web based application for predicting & analysing sales. It uses open source datasets to build Machine Learning models & deploys a graphical representation in the website format. :sunglasses:")
+	st.sidebar.write("An open source project to develop web based application for predicting & analysing sales. It uses open source datasets to build Machine Learning models & deploys a graphical representation in the website format. :innocent:")
 if h=='Key features':
-	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
+	st.sidebar.write("User friendly interface, Cross platform access, Dependable accuracy, Open source development :sunglasses:")
 if h=='Security policy':
 	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
 if h=='Reusability':
+	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
+if h=='Resources':
 	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
 
 st.title("WAPAS")
