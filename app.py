@@ -71,7 +71,7 @@ if choice=='Advertisement on Radio':
 
 		st.info("Generated report")
 		st.write("Predicted sales: $ {:.2f}".format(prediction[0])," billion")
-		st.write("**Warning:** Approx 30% accuracy is expected (not reliable).")
+		st.write("**Warning:** Approx 30% accuracy is expected (not reliable). :red_circle:")
 if choice=='Advertisement on Newspaper (not recommended)':
 	Newspaper = st.slider("Advertisement expenditure on Newspaper", 0, 200, 1)
 	st.markdown('<p style="color:Red">Co-relation between Newspaper advertisement & sales is found to be negligible.</p>', unsafe_allow_html=True)
