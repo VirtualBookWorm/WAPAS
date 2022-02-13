@@ -15,7 +15,7 @@ def load_model(model_file):
 	loaded_model = joblib.load(open(os.path.join(model_file),"rb"))
 	return loaded_model			
 
-h = st.sidebar.selectbox("FAQ/Help", ['How to Login/Authenticate?', 'What is WAPAS?', 'Key features', 'Resources', 'Security policy', 'Reusability'])
+h = st.sidebar.selectbox("FAQ/Help", ['Select question','How to Login/Authenticate?', 'What is WAPAS?', 'Key features', 'Resources', 'Security policy', 'Reusability'])
 if h=='How to Login/Authenticate?':
 	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
 if h=='What is WAPAS?':
@@ -28,6 +28,8 @@ if h=='Reusability':
 	st.sidebar.write("Refer to [LICENSE here](https://github.com/VirtualBookWorm/WAPAS/blob/main/LICENSE) :raised_hand:")
 if h=='Resources':
 	st.sidebar.write("Refer to [Resources here](https://github.com/VirtualBookWorm/WAPAS/tree/main/assets) :heart:")
+if h=='Select question':
+	pass
 
 st.title("WAPAS")
 st.header("Web Application to Predict & Analyse Sales")
