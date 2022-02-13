@@ -25,9 +25,9 @@ if h=='Key features':
 if h=='Security policy':
 	st.sidebar.write("As it's an Open source project, use 'sample_1234' as your unique ID for public use. :+1:")
 if h=='Reusability':
-	st.sidebar.write("Refer to https://github.com/VirtualBookWorm/WAPAS/blob/main/LICENSE :raised_hand:")
+	st.sidebar.write("Refer to [LICENSE here](https://github.com/VirtualBookWorm/WAPAS/blob/main/LICENSE) :raised_hand:")
 if h=='Resources':
-	st.sidebar.write("Refer to https://github.com/VirtualBookWorm/WAPAS/tree/main/assets :heart:")
+	st.sidebar.write("Refer to [Resources here](https://github.com/VirtualBookWorm/WAPAS/tree/main/assets) :heart:")
 
 st.title("WAPAS")
 st.header("Web Application to Predict & Analyse Sales")
